@@ -6,7 +6,7 @@ We took on the challenge of **Voice-Controlled Gaming Tools for Enhanced Learnin
 
 The hackathon took place from **December 11-12, 2024** at **G H Raisoni College of Engineering, Nagpur**, and it was absolutely unforgettable!
 
-![Team Selfie](img/a%20casual%20pic%20with%20the%20team%20it%20is%20a%20selfie.jpeg)
+<img src="img/a%20casual%20pic%20with%20the%20team%20it%20is%20a%20selfie.jpeg" width="100%" />
 
 ## 💡 **What We Built**
 
@@ -32,9 +32,9 @@ And of course, there’s our super useful **Dashboard** with:
 - **ECG wave analysis (PQRST)**
 - Health metrics like **respiration rate, pulse, SpO₂**, and performance insights.
 
-![AI-Based Report](img/output%20image%20ai%20based%20report%20project.jpeg)  
-![CPR Project](img/output%20image%20cpr%20project.jpeg)  
-![Dashboard Project](img/output%20image%20dashboard%20project.jpeg)
+<img src="img/output%20image%20ai%20based%20report%20project.jpeg" width="100%" />  
+<img src="img/output%20image%20cpr%20project.jpeg" width="100%" />  
+<img src="img/output%20image%20dashboard%20project.jpeg" width="100%" />
 
 ### **Our Goal**
 We wanted to deliver immersive VR training for healthcare professionals and help boost skills using **AI-powered modules**.
@@ -45,14 +45,14 @@ The **36-hour hackathon** was a rollercoaster of ideas, prototyping, and pushing
 
 Presenting our project to the jury was a huge moment for us, and it felt incredible to see everything come together!
 
-![Team Explaining to Jury](img/top%20down%20shot%20for%20the%20team%20explaining%20to%20jury%20which%20shows%20the%20laptops%20and%20output.jpeg)
+<img src="img/top%20down%20shot%20for%20the%20team%20explaining%20to%20jury%20which%20shows%20the%20laptops%20and%20output.jpeg" width="100%" />
 
 ## 🔥 **The Comeback**
 
 This win means even more to us because, in **2023**, we came in **Runner-Up**. That setback only made us stronger and more determined to come back with an even better solution this year!
 
-![Team with Banner](img/team%20with%20banner.jpeg)  
-![Team with Banner Landscape](img/team%20pic%20with%20banner%20in%20landscape.jpeg)
+<img src="img/team%20with%20banner.jpeg" width="100%" />  
+<img src="img/team%20pic%20with%20banner%20in%20landscape.jpeg" width="100%" />
 
 ## 🙏 **Shoutouts & Thanks**
 
@@ -77,7 +77,7 @@ Special shoutout to **G H Raisoni College of Engineering, Nagpur**, for their fa
 ### **Support:**
 Big thanks to @Lelin, @Sairam Techno Incubator Foundation, @Swagata Sarkar, HoD of AI & Data Science, and @Raja, Principal at Sri Sairam Engineering College, for always having our backs. ❤️
 
-![Jury Explaining](img/team%20with%20jury%20explaining.jpeg)
+<img src="img/team%20with%20jury%20explaining.jpeg" width="100%" />
 
 ## 🚀 **Looking Ahead**
 
@@ -87,7 +87,7 @@ This win is just the beginning for us! It's motivated us to keep innovating, fac
 
 Here’s to many more adventures ahead! 🌟
 
-![Trophy Image](img/trophy%20image.jpeg)
+<img src="img/trophy%20image.jpeg" width="100%" />
 
 ---
 
