@@ -10,32 +10,37 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: #1b1b1b;
+      color: #f0f0f0;
     }
     header {
       background: #6200ea;
       color: white;
-      padding: 1rem 2rem;
+      padding: 2rem 2rem;
       text-align: center;
+      font-size: 2.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
     h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     section {
       padding: 2rem;
       max-width: 800px;
-      margin: 0 auto;
-      background: white;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      margin-bottom: 2rem;
+      margin: 2rem auto;
+      background: #292929;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
       border-radius: 10px;
     }
     img {
       max-width: 100%;
       border-radius: 10px;
       margin: 1rem 0;
+      transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.05);
     }
     ul {
       list-style: none;
@@ -49,13 +54,31 @@
       padding: 1rem;
       background: #6200ea;
       color: white;
+      font-size: 1rem;
+      margin-top: 3rem;
     }
     blockquote {
       font-style: italic;
-      color: #555;
+      color: #ddd;
       margin: 1rem 0;
       padding-left: 1rem;
       border-left: 4px solid #6200ea;
+      font-size: 1.2rem;
+    }
+    .project-gallery img {
+      width: 32%;
+      margin-right: 1%;
+      margin-bottom: 1rem;
+    }
+    .project-gallery img:last-child {
+      margin-right: 0;
+    }
+    .light-animation {
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
   </style>
   <script>
@@ -70,52 +93,35 @@
 </head>
 <body>
   <header>
-    <h1>🎉 WE WON the Smart India Hackathon 2024! 🏆</h1>
+    🎉 WE WON the Smart India Hackathon 2024! 🏆
   </header>
 
-  <section id="intro">
-    <p>I can't even begin to express how excited I am to share this news – <strong>Smart Smurfs 561</strong> won the <strong>Smart India Hackathon 2024</strong>! 🏅</p>
-    <p>We took on the challenge of <strong>Voice-Controlled Gaming Tools for Enhanced Learning in the Skill Ecosystem (PS ID: 1779)</strong> under the <strong>Ministry of Skill Development and Entrepreneurship (MSDE)</strong> in the <strong>Toys & Games</strong> category.</p>
-    <p>The hackathon went down from <strong>December 11-12, 2024</strong> at <strong>G H Raisoni College of Engineering, Nagpur</strong>, and honestly, it was an experience I’ll never forget!</p>
+  <section id="intro" class="light-animation">
+    <p>Let me just start by saying, <strong>we did it</strong>! After hours of caffeine, coding, and pretending to understand what we were doing, <strong>Smart Smurfs 561</strong> emerged victorious at the <strong>Smart India Hackathon 2024</strong>! 🏅</p>
+    <p>We took on the challenge of creating <strong>Voice-Controlled Gaming Tools for Enhanced Learning in the Skill Ecosystem (PS ID: 1779)</strong> for the <strong>Ministry of Skill Development and Entrepreneurship (MSDE)</strong>. Fancy, right? All in the <strong>Toys & Games</strong> category, because nothing says "high-stakes" like games.</p>
+    <p>Let me set the scene: it was December 11-12, 2024, at the <strong>G H Raisoni College of Engineering, Nagpur</strong>. Imagine a room full of sleep-deprived hackers trying to figure out how to make AI play well with voice commands. I don’t know about you, but it felt like a <strong>reality TV show</strong> with zero sleep and way too many energy drinks.</p>
   </section>
 
-  <section id="gallery">
+  <section id="gallery" class="light-animation">
     <h2>📸 Here's a Sneak Peek of the Journey</h2>
-    <p>Before we dive into what we built, let me show you a couple of fun moments from the event. You know, the ones where we actually look like we know what we're doing 😜.</p>
+    <p>Okay, before I dive into the techy stuff (you know, the part that actually got us the win), let me share some snapshots from the event. These are the rare moments where we looked like we were experts and not just looking for a place to nap.</p>
     <img src="img/a%20casual%20pic%20with%20the%20team%20it%20is%20a%20selfie.jpeg" alt="Team Selfie">
   </section>
 
-  <section id="project">
+  <section id="project" class="light-animation">
     <h2>💡 What We Built</h2>
-    <p>Our solution? We created <strong>Virtual Reality healthcare training</strong> modules in <strong>Unity</strong>. Here’s a breakdown:</p>
+    <p>Okay, time for the cool stuff. So, what did we actually create? Well, we got a bit ambitious and built a <strong>Virtual Reality healthcare training</strong> system. Sounds fancy, huh? Here’s the breakdown:</p>
     <ul>
-      <li><strong>CPR Training:</strong>
-        <ul>
-          <li>Chest compressions</li>
-          <li>AED usage</li>
-          <li>Oxygen mask handling</li>
-        </ul>
-      </li>
-      <li><strong>Surgical Training:</strong>
-        <ul>
-          <li>Suturing</li>
-          <li>Bandaging</li>
-        </ul>
-      </li>
+      <li><strong>CPR Training:</strong> Because who wouldn’t want to save a life in VR? Chest compressions, AED usage, oxygen mask handling... all in one package!</li>
+      <li><strong>Surgical Training:</strong> For when you want to feel like a doctor but without the years of med school. Suturing, bandaging, the works.</li>
     </ul>
-    <p>But wait, there's more! We also built <strong>Medibot</strong>, an AI assistant that uses <strong>Machine Learning</strong> and <strong>Python</strong> to help:</p>
+    <p>But wait, we didn’t stop there. We also made a <strong>Medibot</strong>, an AI assistant that’s like your personal health coach... if your health coach had a PhD in Machine Learning. It helps you:</p>
     <ul>
       <li>Evaluate your skills</li>
       <li>Aid in decision-making</li>
-      <li>Generate performance reports</li>
+      <li>Generate performance reports (because we all love stats)</li>
     </ul>
-    <p>And then, we topped it off with a <strong>Dashboard</strong> for all your live data needs, like:</p>
-    <ul>
-      <li><strong>Live streaming</strong></li>
-      <li><strong>ECG wave analysis (PQRST)</strong></li>
-      <li>Health metrics like <strong>respiration rate, pulse, SpO₂</strong>, and system performance insights.</li>
-    </ul>
-    <p>This was all aimed at delivering <strong>VR-based healthcare training</strong> that’s immersive and interactive!</p>
+    <p>We topped it off with a <strong>Dashboard</strong> to make everything look official, featuring live data, ECG wave analysis, and health metrics. It’s like a real-time doctor’s office, but with less judgment.</p>
     <div class="project-gallery">
       <img src="img/output%20image%20(ai%20based%20report)%20project.jpeg" alt="AI-Based Report">
       <img src="img/output%20image%20(cpr)%20project.jpeg" alt="CPR Training">
@@ -123,44 +129,43 @@
     </div>
   </section>
 
-  <section id="journey">
+  <section id="journey" class="light-animation">
     <h2>⏳ The Hackathon Journey</h2>
-    <p>The <strong>36-hour hackathon</strong> was intense, to say the least. It was a mix of sleepless nights, rapid prototyping, and pushing ourselves to the limits. But in the end, we nailed it!</p>
-    <p>And when it was time to present, our hearts were racing. But we knew we had something special to show the jury. 💪</p>
+    <p>Let me tell you, the hackathon wasn’t just about code. It was about survival. 36 hours of non-stop pressure, and by pressure, I mean figuring out how to make everything work at the very last minute. But somehow, we pulled through. Sleepless nights, endless snacks, and too many 'what was I thinking?' moments later, we had our presentation ready.</p>
+    <p>When it came time to present, my heart was doing the Macarena, but we were ready. We knew we had built something that could actually make a difference. 💪</p>
     <img src="img/team%20with%20jury%20explaining.jpeg" alt="Team Explaining to Jury">
   </section>
 
-  <section id="comeback">
+  <section id="comeback" class="light-animation">
     <h2>🔥 The Comeback Story</h2>
-    <p>What makes this win even more special is the fact that last year, in <strong>2023</strong>, we were <strong>Runner-Up</strong>. That experience pushed us harder, and we came back with a fire to win this year!</p>
-    <p>And here we are, standing at the top! 🌟</p>
+    <p>What makes this win even sweeter? We were <strong>Runner-Up</strong> last year. Yeah, we didn’t win, but we learned a lot and came back this year with a vengeance. It was like the <strong>Rocky</strong> movie, but with more code and less boxing.</p>
+    <p>And here we are, standing at the top. But don’t worry, we’ll keep our feet on the ground... until the next hackathon. 😜</p>
     <img src="img/team%20with%20banner.jpeg" alt="Team with Trophy">
   </section>
 
-  <section id="thankyou">
+  <section id="thankyou" class="light-animation">
     <h2>🙏 A Big Thank You</h2>
-    <p>A huge shoutout to <strong>Harini V</strong>, our amazing team leader. Without your leadership, we wouldn’t have made it this far!</p>
-    <p>And of course, a massive thanks to my teammates:</p>
+    <p>First, let’s give a huge shoutout to our fearless leader, <strong>Harini V</strong>. Without you, we would’ve probably just built a VR game about coffee breaks. Seriously, your leadership was the secret ingredient to this success.</p>
+    <p>Big thanks to my incredible teammates:</p>
     <ul>
       <li>@Bramarambika</li>
       <li>@KrithikRaghav</li>
       <li>@Mohamed Suhail</li>
-      <li>@Ratnesh (me) 😎</li>
+      <li>@Ratnesh (that’s me!) 😎</li>
       <li>@Sakthisree</li>
     </ul>
-    <p>You guys were absolutely incredible, and your hard work made this victory possible!</p>
-    <p>A big thank you also goes out to our mentors. You were our guiding light throughout the whole process! 🌟</p>
-    <p>Special thanks to <strong>G H Raisoni College of Engineering, Nagpur</strong>, for their fantastic facilities and organization. You guys made everything so smooth for us!</p>
+    <p>And, of course, our mentors, who were like the GPS guiding us through this hackathon maze.</p>
+    <p>Special thanks to <strong>G H Raisoni College of Engineering, Nagpur</strong> for making everything smooth—except for the Wi-Fi, which was a little too smooth. 😂</p>
     <img src="img/team%20pic%20with%20banner%20in%20landscape.jpeg" alt="Team with Banner in Landscape">
   </section>
 
-  <section id="future">
+  <section id="future" class="light-animation">
     <h2>🚀 Looking Ahead</h2>
-    <p>This win? It’s just the beginning! It’s fuel for the fire, and I’m more motivated than ever to keep pushing the boundaries of what we can build.</p>
+    <p>And just like that, we’re onto the next big thing. This win? Just the beginning! Our next project is already brewing in the lab. Stay tuned for more awesome stuff coming your way.</p>
     <blockquote>
       “The future belongs to those who believe in the beauty of their dreams.”
     </blockquote>
-    <p>And trust me, we’ve got a lot more dreams to chase! 🌟</p>
+    <p>And trust me, we’ve got a ton of dreams. The only thing standing between us and success is... well, sleep. But we’ll get there.</p>
     <img src="img/trophy%20image.jpeg" alt="Trophy">
   </section>
 
